@@ -4,16 +4,20 @@
 
 ## To Do list
 
-
+* set up columns for Product.js
+* set up columns for ProductTag.js
+* set up columns for Tag.js
+* set up columns for Category.js
+* set up routes for product-routes.js
+* set up routes for category-routes.js
+* set up routes for tag-routes.js
 
 ## Getting Started
 
 * First, make sure you have a terminal viewer installed (such as Git Bash).
 * Next, install [Node.js](https://nodejs.org/).
 * Then, install [MySQL](https://www.mysql.com/) and follow their instructions VERY carefully.
-* Open up your terminal and navigate to the db folder.
-* type in `mysql -u root -p`
-* Enter the password as `password`
+* 
 
 
 ## Deployed Link
