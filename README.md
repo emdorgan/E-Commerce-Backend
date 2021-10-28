@@ -4,14 +4,9 @@
 
 ## To Do list
 
-* set up columns for Product.js
-* set up columns for ProductTag.js
-* set up columns for Tag.js
-* set up columns for Category.js
 * set up routes for product-routes.js
 * set up routes for category-routes.js
 * set up routes for tag-routes.js
-* Declare class (table) relationships in index.js
 
 ## Getting Started
 
