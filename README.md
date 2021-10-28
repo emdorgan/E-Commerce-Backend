@@ -11,13 +11,13 @@
 * set up routes for product-routes.js
 * set up routes for category-routes.js
 * set up routes for tag-routes.js
+* Declare class (table) relationships in index.js
 
 ## Getting Started
 
 * First, make sure you have a terminal viewer installed (such as Git Bash).
 * Next, install [Node.js](https://nodejs.org/).
 * Then, install [MySQL](https://www.mysql.com/) and follow their instructions VERY carefully.
-* 
 
 
 ## Deployed Link
