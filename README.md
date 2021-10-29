@@ -32,6 +32,7 @@ This is the backend of an e-commerce website consisting of a database with categ
 ## Screenshot
 
 ![Screenshot of testing with insomnia](screenshots/insomnia-test.png)
+![GIF of starting MySQL and seeding the database](screenshots/e-commerce-demo.gif)
 
 ## Code snippet
 
