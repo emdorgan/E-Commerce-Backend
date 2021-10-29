@@ -7,7 +7,7 @@ router.get('/', async (req, res) => {
   try {
     // create an instance of the model
     const categoryData = await Category.findAll();
-    // parse out the relevant data from a findAll()
+    // parse out the relevant data from the findAll()
     const categories = categoryData.map((category) => category.get({ plain: true}));
     // send it to the user
     res.status(200).json(categories);
@@ -54,8 +54,8 @@ router.put('/:id', async (req, res) => {
       {
         where: {id: req.params.id}
       })
-    console.log(categoryData);
-    res.status(200).json(categoryData);
+    console.log(`category name has been updated to ${req.body.category_name}`);
+    res.status(200).json({message: `category name has been updated to ${req.body.category_name}`});
   } catch (err) {
     res.status(500).json(err);
   }
