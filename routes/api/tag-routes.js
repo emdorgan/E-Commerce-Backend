@@ -74,6 +74,7 @@ router.delete('/:id', async (req, res) => {
       });
     if(!tagData) {
       res.status(404)
+      return
     }
     res.status(200).json({message: `tag name has been deleted`})
   } catch (err) {
