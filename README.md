@@ -4,9 +4,7 @@
 
 ## To Do list
 
-* set up routes for product-routes.js
 * set up routes for tag-routes.js
-* Switch force: true to force: false
 
 ## Getting Started
 
