@@ -17,6 +17,7 @@ ProductTag.init(
       references: {
         model: 'product',
         key: 'id',
+        unique: false
       },
     },
     tag_id: {
@@ -24,6 +25,8 @@ ProductTag.init(
       references: {
         model: 'tag',
         key: 'id',
+        // unique key needs to be set to false (in BOTH places) for the 'through' table to work
+        unique: false
       },
     },
   },

@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
   try {
     // create an instance of the model, parse out relevant data with .get() presents it to the user
     const categoryData = await Category.findAll({
-      include: { model: Product },
+      include: [{ model: Product }],
     });
     const categories = categoryData.map((category) => category.get({ plain: true}));
     res.status(200).json(categories);
